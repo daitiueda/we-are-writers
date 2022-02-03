@@ -1,0 +1,86 @@
+.footer{
+  padding-top: 200px;
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  border-top: solid #000;
+}
+.footer_title{
+  grid-column: 1/5;
+  grid-row: 1;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  font-size:400%;
+  font-family:'Impact';
+  margin: auto;
+}
+.footer_login{
+  font-family: serif;
+  align-self:end;
+  padding:20px;
+  transition: 0.5s;
+}
+.footer_logout{
+  font-family: serif;
+  align-self:end;
+  padding:20px;
+  transition: 0.5s;
+}
+.footer_new_account{
+  font-family: serif;
+  align-self:end;
+  padding:20px;
+  transition: 0.5s;
+}
+.footer_favorite{
+  font-family: serif;
+  align-self:end;
+  padding:20px;
+  transition: 0.5s;
+}
+.footer_leave{
+  font-family: serif;
+  align-self:end;
+  padding:20px;
+  transition: 0.5s;
+}
+.footer2{
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #000;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+}
+.footer2 .inquiry{
+  color: #fff;
+  grid-column: 2/5;
+  grid-row: 1;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.footer2 ul{
+  list-style: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* コメント */
+.chapter_comment{
+  grid-column: 3/7;
+  grid-row: 4;
+  width:100%;
+}
+.chapter_comment textarea{
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+}

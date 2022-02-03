@@ -1,0 +1,93 @@
+.title {
+  grid-column: 1/9;
+  grid-row: 1;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: #000;
+}
+.title h1{
+  text-align: center;
+  font-size:600%;
+  font-family:'Impact';
+  margin: auto;
+}
+.header{
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  background-color: #fff;
+  z-index: 999999;
+}
+.login {
+  grid-column: 1/3;
+  grid-row:2;
+  text-align: center;
+  font-size: 180%;
+  padding-top:15px;
+  padding-bottom: 15px;
+  font-family:'Times New Roman';
+  transition: 0.5s;
+  border-bottom: solid #000;
+  z-index: 999999;
+}
+.new_account {
+  grid-column: 3/5;
+  grid-row:2;
+  text-align: center;
+  font-size: 180%;
+  padding-top:15px;
+  padding-bottom: 15px;
+  font-family:'Times New Roman';
+  transition: 0.5s;
+  border-bottom: solid #000;
+  z-index: 999999;
+}
+.mypage {
+  grid-column: 5/7;
+  grid-row:2;
+  text-align: center;
+  font-size: 180%;
+  padding-top:15px;
+  padding-bottom: 15px;
+  font-family:'Times New Roman';
+  transition: 0.5s;
+  border-bottom: solid #000;
+  z-index: 999999;
+}
+.home {
+  grid-column: 7/9;
+  grid-row:2;
+  text-align: center;
+  font-size: 180%;
+  padding-top:15px;
+  padding-bottom: 15px;
+  font-family:'Times New Roman';
+  transition: 0.5s;
+  border-bottom: solid #000;
+  z-index: 999999;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+.header a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.nav{
+  grid-column: 1/9;
+  grid-row:2;
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  background-color: #fff;
+  z-index: 999999;
+}
+.fixed {
+  position: absolute;
+  position: fixed;
+}

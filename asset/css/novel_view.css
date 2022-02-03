@@ -1,0 +1,54 @@
+.view{
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'HiraMinProN-W6';
+  gap: 10px;
+}
+.one_chapter_novel_title{
+  grid-row: 1;
+  font-size: 40px;
+  padding: 20px;
+  grid-column: 2/7;
+  background-color: #cc1f00;
+  color: #fff;
+  border: #000 solid;
+}
+.one_chapter_number{
+  grid-row: 1;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  grid-column: 7/8;
+  background-color: #fff;
+  color: #000;
+  border: #000 solid;
+  font-family: 'HiraMinProN-W6';
+}
+.one_chapter_title{
+  grid-row: 2;
+  font-size: 40px;
+  padding: 20px;
+  grid-column: 2/8;
+  background-color: #fff;
+  color: #000;
+  border: #000 solid;
+}
+.one_chapter{
+  grid-row: 3;
+  grid-column: 2/8;
+  font-size: 20px;
+  padding: 40px;
+  background-color: #fff;
+  color: #000;
+  border: #000 solid;
+}
+.comments{
+  grid-column: 2/8;
+  grid-row: auto;
+  text-align: center;
+}

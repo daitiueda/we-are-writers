@@ -1,0 +1,8 @@
+2022-01-02-02:40:29仮登録の完了【小説投稿サイト「We are writers!」】
+gege様、小説投稿サイト「We are writers!」にご登録くださりありがとうございます。
+以下のリンクをクリックして、本登録操作を完了してください。
+ 
+ localhost/account/account_registered.php?name=gege&token=I7pxzDjgTQwlbsAc84oG 
+ 
+ 
+ ※このメールに心覚えがない場合は、このメールを削除してください。

@@ -1,0 +1,102 @@
+.summary{
+  width: 100%;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'HiraMinProN-W6';
+  gap: 10px;
+}
+.one_novel_title{
+  grid-row: 1;
+  font-size: 60px;
+  padding: 20px;
+  grid-column: 2/7;
+  background-color: #cc1f00;
+  color: #fff;
+  border: #000 solid;
+}
+#ajax_favorite_btn{
+  grid-row: 1;
+  grid-column: 7/8;
+  border-radius: 0;
+  padding: 0;
+  border: #000 solid;
+}
+.favorite_button{
+  font-family: Impact;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  background: #cc1f00;
+  border-top: 4px solid #fff;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #fff;
+  transition: 0.2s;
+}
+.favorite_button:hover {
+  color: #fff;
+  border-top: 4px solid #000;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #000;
+}
+.unfavorite_button{
+  font-family: Impact;
+  font-size: 40px;
+  text-align: center;
+  background: #ddd;
+  border-top: 4px solid #fff;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #fff;
+}
+.unfavorite_button:hover {
+  border-top: 4px solid #000;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #000;
+}
+.one_novel_over{
+  grid-row: 2;
+  font-size: 40px;
+  padding: 20px;
+  grid-column: 2/8;
+  background-color: #fff;
+  color: #000;
+  border: #000 solid;
+}
+.one_novel_summary{
+  grid-row: 3;
+  grid-column: 2/8;
+  font-size: 20px;
+  padding: 40px;
+  background-color: #fff;
+  color: #000;
+  border: #000 solid;
+}
+.chapter_number{
+  grid-row: auto;
+  grid-column: 2/7;
+  font-size: 40px;
+  padding: 20px;
+  background-color: #cc1f00;
+  color: #fff;
+  border: #000 solid;
+}
+.chapter_read_button{
+  grid-row: auto;
+  grid-column: 7/8;
+  font-size: 40px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border: #000 solid;
+}
+.chapter_read_button:hover{
+  background-color: #fff;
+  color: #000;
+}
