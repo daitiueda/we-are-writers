@@ -1,8 +1,0 @@
-仮登録の完了【小説投稿サイト「We are writers!」】
-上田大智様、小説投稿サイト「We are writers!」にご登録くださりありがとうございます。
-以下のリンクをクリックして、本登録操作を完了してください。
- 
- http://localhost/account/account_registered.php?name=上田大智&token=pzSf9ECXqBAWMy0cPobO 
- 
- 
- ※このメールに心覚えがない場合は、このメールを削除してください。
